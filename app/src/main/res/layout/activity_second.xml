@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--main.xml-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Loan 1 Details"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="26dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dip"
+        android:typeface="sans"/>
+    <RelativeLayout android:id="@+id/rl_country_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#555555">
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3d455b"
+        android:layout_alignParentLeft="true" >
+
+        <HorizontalScrollView
+            android:id="@+id/hscrll1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:id="@+id/table_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true" >
+                </TableLayout>
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

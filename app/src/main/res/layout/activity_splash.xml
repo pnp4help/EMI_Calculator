@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    >
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="72dp"
+            android:text="EMI Calculator"
+            android:textColor="@android:color/background_dark"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="140sp"
+            android:layout_height="131sp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/icon" />
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="42dp"
+            android:text=" \n Made By : \n 15IT087 Kunj \n 15IT093 Mit \n 15IT144 Sarthak \n \nGuided By : Prof. Pritesh Prajapati"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>
